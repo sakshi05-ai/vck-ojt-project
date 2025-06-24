@@ -1,0 +1,49 @@
+ .container{
+    flex-grow: 1;
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+
+}
+.text{
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px #0000000d;
+    color:black;
+}
+
+.action{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+button{
+    background-color: rgb(78, 211, 78);
+}
+
+.h1{
+    color: rgb(73, 73, 167);
+}
+ .main{
+     min-height: 100vh;
+    display: flex;
+
+    flex-direction: column;
+    background-color: #f4f7f6;
+    color:black;
+}
+.vck{
+    
+    height:200px;
+    width:850px;
+    background-image:url('C:\OJT SAKU\vck-react-project\vck-react-project\public\Images\college1-banner.png');
+    background-size: cover;
+    color:white;
+    text-align: center;
+}
