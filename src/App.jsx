@@ -5,6 +5,7 @@ import ContactPage from "./pages/ContactPage";
 import CoursesPage from "./pages/CoursesPage";
 import HomePage from "./pages/HomePage";
 import './styles/pages.css';
+import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
 
 const App = () => {
   return(
@@ -18,8 +19,11 @@ const App = () => {
                 
 
           </Routes>
+          <ChatbotComponent/>
         </Router>
       </div>
 
   )
 }
+
+export default App;

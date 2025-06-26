@@ -48,14 +48,21 @@ const HomePage =() => {
                   
                 </ul>
                 <h2><strong>campus life and Facilities</strong></h2>
-                <img scr="C:\OJT SAKU\vck-react-project\vck-react-project\public\Images\campus-life-Crkero7B.jpg" class="left"></img>
-                <img scr="C:\OJT SAKU\vck-react-project\vck-react-project\public\Images\college1-banner.png" class="right"></img>
+                <div class="column">
+                <img src="/Images/students-studying-DbLGuwF_.jpeg" height="180px" width=" 100px"></img>
+                </div><div class="column">
+                <img src="vck-react-project/public/Images/campus-life-Crkero7B.jpg" height="180px" width=" 120px"></img>
+                </div>
                 <div class="action">
                 <p class="clear">Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
                 <p class="clear">Ready to explore our courses?</p>
                 </div>
               </div>
+
+
+
     )
+
 }
 
 export default HomePage;

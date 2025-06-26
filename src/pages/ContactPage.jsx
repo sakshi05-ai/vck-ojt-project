@@ -5,69 +5,57 @@ const ContactPage = () => {
    return(
       <div class="main">
         <Header/>
-        <div class="container">
-              <div class="text">
-              <h2>
-                Our Academic Programs
-              </h2>
-              <p>
-                Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.
-              </p>
-              <h2>
-              Undergraduate Programs (UG)
-              </h2>
-              <hr></hr>
-              <ul>
-                <li>
-                      *Bachelor of Science (B.Sc.)*
-                          Computer Science (3 years)
-                        Information Technology (3 years)
-                        Biotechnology (3 years)
-                </li>
-                <li>
-                        *Bachelor of Commerce (B.Com)*
-                        Accounting & Finance (3 years)
-                        Banking & Insurance (3 years)
-                </li>
-                <li>
-                        *Bachelor of Arts (B.A.)*
-                        English Literature (3 years)
-                        Psychology (3 years)
-                </li>
-                
-              </ul>
-              <h2>
-                Postgraduate Programs (PG)
-              </h2>
-              <hr></hr>
-              <ul>
-                <li>
-                *Master of Science (M.Sc.)*
-                 Computer Science (2 years)
-                </li>
-                <li>
-                  *Master of Commerce (M.Com)* (2 years)
-                </li>
-                <li>
-                  Information Technology (2 years)
-                </li>
-              </ul>
-              <h2>
-                Specialized & Vocational Courses
+            <div class="container">
+            <div class="text">
+             <h2>Contact Us</h2>
+             <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
 
-              </h2>
-              <hr></hr>
-              <p>
-                In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.
-              </p>
-              <p>
-                Explore detailed syllabi and admission criteria on our Admissions page.
-              </p>
-              <button type="submit">Inquire About Courses</button>
-              </div>
-            </div>
+             <h2>General Enquiries</h2>
+            <p>Vivekanand College Main Campus
+              [Your College Full Address Here, e.g., Mahatma Gandhi Road, Chembur, Mumbai, Maharashtra 400071]
+               India
+            </p>
+            <p>
+               Phone: *+91 12345 67890*
+               Email: *info@vivekanandcollege.edu*
+               Office Hours: Monday - Friday, 9:00 AM - 5:00 PM IST
+            </p>
+
+            <h2>Admissions Office</h2>
+            <p>
+               For all admission-related queries regarding undergraduate or postgraduate programs:
+               Phone: +91 98765 43210
+               Email: admissions@vivekanandcollege.edu
+            </p>
+            <h2>
+                Student Support Services
+            </h2>
+            <p>
+               For current student support, academic advising, or general assistance:
+               Phone: +91 87654 32109
+               Email: studentsupport@vivekanandcollege.edu
+            </p>
+            <h2>
+                  Find Us on the Map
+           </h2>
+            <p>
+              [You can embed a Google Map here later using an iframe or a React map library.]
+               View on Google Maps
+            </p>
+           <h2>
+              Send Us a Message
+           </h2>
+            <p>
+             [A contact form with fields for Name, Email, Subject, Message can be added here.]
+            </p>
       </div>
+    </div>
+</div>
    )
+
+
+
+   
 
 }
 
